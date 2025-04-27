@@ -1,9 +1,28 @@
+# Ignore virtual environments
 venv/
+ENV/
+env/
+
+# Ignore compiled files and caches
 __pycache__/
-node_modules/
-.DS_Store
-.env
-*.pyd
-*.dll
+**/__pycache__/
+*.py[cod]
 *.so
+
+# Ignore environment files
+.env
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore node_modules (for frontend)
+node_modules/
+
+# Ignore binary files
+*.dll
 *.exe
+*.pyd
+
+# Ignore model files and scaler files if they're large
+*.h5
+*.save
