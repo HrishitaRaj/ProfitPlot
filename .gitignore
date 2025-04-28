@@ -8,6 +8,7 @@ __pycache__/
 **/__pycache__/
 *.py[cod]
 *.so
+*.pyd
 
 # Ignore environment files
 .env
@@ -21,8 +22,19 @@ node_modules/
 # Ignore binary files
 *.dll
 *.exe
-*.pyd
 
-# Ignore model files and scaler files if they're large
+# Ignore model and scaler files if they're large
 *.h5
-*.save
+*.hdf5
+*.model
+*.pkl
+*.sav
+*.pb
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
