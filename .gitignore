@@ -28,7 +28,7 @@ node_modules/
 *.hdf5
 *.model
 *.pkl
-*.sav
+*.save
 *.pb
 
 # Ignore logs and temporary files
